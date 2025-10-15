@@ -5,10 +5,25 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "faiss-cpu>=1.12.0",
+    "hf-xet>=1.1.10",
     "langchain>=0.3.27",
     "langchain-chroma>=0.2.6",
     "langchain-experimental>=0.3.4",
     "langchain-google-genai>=2.1.12",
     "langchain-huggingface>=0.3.1",
+    "langchain-mcp-adapters>=0.1.11",
     "langchain-openai>=0.3.33",
+    "langgraph>=0.6.10",
+    "nest-asyncio>=1.6.0",
+    "pdf2image>=1.17.0",
+    "pillow>=11.3.0",
+    "pypdf>=6.1.1",
+    "pytesseract>=0.3.13",
+    "python-dotenv>=1.1.1",
+    "rank-bm25>=0.2.2",
+    "rich>=14.2.0",
+    "sentence-transformers>=5.1.1",
+    "transformers>=4.57.0",
+    "unstructured[local-inference,pdf]>=0.18.15",
 ]
