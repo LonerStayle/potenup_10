@@ -14,6 +14,7 @@ dependencies = [
     "langchain-huggingface>=0.3.1",
     "langchain-mcp-adapters>=0.1.11",
     "langchain-openai>=0.3.33",
+    "langchain-tavily>=0.2.12",
     "langgraph>=0.6.10",
     "nest-asyncio>=1.6.0",
     "pdf2image>=1.17.0",
@@ -24,6 +25,7 @@ dependencies = [
     "rank-bm25>=0.2.2",
     "rich>=14.2.0",
     "sentence-transformers>=5.1.1",
+    "tavily-python>=0.7.12",
     "transformers>=4.57.0",
     "unstructured[local-inference,pdf]>=0.18.15",
 ]

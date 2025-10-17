@@ -1761,6 +1761,21 @@ wheels = [
 ]
 
 [[package]]
+name = "langchain-tavily"
+version = "0.2.12"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "aiohttp" },
+    { name = "langchain" },
+    { name = "langchain-core" },
+    { name = "requests" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f8/b7/03f62ffc504990712cefdc722a46c3be80d6e0407833edb0f3a785f840c3/langchain_tavily-0.2.12.tar.gz", hash = "sha256:e73ef2149b7a4e751fce75c47003d04628222b12d073dae4af2dc7f58d589e30", size = 21744, upload-time = "2025-10-06T22:06:40.427Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/19/e1/71774530175512c49f7004790b669726c07ad7f797ebc0166ee99ea16d63/langchain_tavily-0.2.12-py3-none-any.whl", hash = "sha256:d243a53f60048a18b55f5a7efd5e2dcdde6a9dbc9f84c45e5f349210303e95a3", size = 25864, upload-time = "2025-10-06T22:06:39.354Z" },
+]
+
+[[package]]
 name = "langchain-text-splitters"
 version = "0.3.11"
 source = { registry = "https://pypi.org/simple" }
@@ -3318,6 +3333,7 @@ dependencies = [
     { name = "langchain-huggingface" },
     { name = "langchain-mcp-adapters" },
     { name = "langchain-openai" },
+    { name = "langchain-tavily" },
     { name = "langgraph" },
     { name = "nest-asyncio" },
     { name = "pdf2image" },
@@ -3328,6 +3344,7 @@ dependencies = [
     { name = "rank-bm25" },
     { name = "rich" },
     { name = "sentence-transformers" },
+    { name = "tavily-python" },
     { name = "transformers" },
     { name = "unstructured", extra = ["local-inference", "pdf"] },
 ]
@@ -3343,6 +3360,7 @@ requires-dist = [
     { name = "langchain-huggingface", specifier = ">=0.3.1" },
     { name = "langchain-mcp-adapters", specifier = ">=0.1.11" },
     { name = "langchain-openai", specifier = ">=0.3.33" },
+    { name = "langchain-tavily", specifier = ">=0.2.12" },
     { name = "langgraph", specifier = ">=0.6.10" },
     { name = "nest-asyncio", specifier = ">=1.6.0" },
     { name = "pdf2image", specifier = ">=1.17.0" },
@@ -3353,6 +3371,7 @@ requires-dist = [
     { name = "rank-bm25", specifier = ">=0.2.2" },
     { name = "rich", specifier = ">=14.2.0" },
     { name = "sentence-transformers", specifier = ">=5.1.1" },
+    { name = "tavily-python", specifier = ">=0.7.12" },
     { name = "transformers", specifier = ">=4.57.0" },
     { name = "unstructured", extras = ["local-inference", "pdf"], specifier = ">=0.18.15" },
 ]
@@ -4729,6 +4748,20 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/83/d3/803453b36afefb7c2bb238361cd4ae6125a569b4db67cd9e79846ba2d68c/sympy-1.14.0.tar.gz", hash = "sha256:d3d3fe8df1e5a0b42f0e7bdf50541697dbe7d23746e894990c030e2b05e72517", size = 7793921, upload-time = "2025-04-27T18:05:01.611Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a2/09/77d55d46fd61b4a135c444fc97158ef34a095e5681d0a6c10b75bf356191/sympy-1.14.0-py3-none-any.whl", hash = "sha256:e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5", size = 6299353, upload-time = "2025-04-27T18:04:59.103Z" },
+]
+
+[[package]]
+name = "tavily-python"
+version = "0.7.12"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "httpx" },
+    { name = "requests" },
+    { name = "tiktoken" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/3e/42/ce2329635b844dda548110a5dfa0ab5631cdc1085e15c2d68b1850a2d112/tavily_python-0.7.12.tar.gz", hash = "sha256:661945bbc9284cdfbe70fb50de3951fd656bfd72e38e352481d333a36ae91f5a", size = 17282, upload-time = "2025-09-10T17:02:01.281Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/9a/e2/dbc246d9fb24433f77b17d9ee4e750a1e2718432ebde2756589c9154cbad/tavily_python-0.7.12-py3-none-any.whl", hash = "sha256:00d09b9de3ca02ef9a994cf4e7ae43d4ec9d199f0566ba6e52cbfcbd07349bd1", size = 15473, upload-time = "2025-09-10T17:01:59.859Z" },
 ]
 
 [[package]]
