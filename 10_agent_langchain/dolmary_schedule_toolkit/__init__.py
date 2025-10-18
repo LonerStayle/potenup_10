@@ -1,8 +1,10 @@
 from .toolkit import DolmaryScheduleToolkit
-from .tools import AddToDoTool, ViewToDoTool
+from .tools import AddToDoTool, ViewToDoTool, ViewCompleteToDoTool, DeleteTool
 
 __all__ = [
     "DolmaryScheduleToolkit",
     "AddToDoTool",
-    "ViewToDoTool"
+    "ViewToDoTool",
+    "ViewCompleteToDoTool",
+    "DeleteTool"
 ]
